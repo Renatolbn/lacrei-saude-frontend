@@ -2,8 +2,14 @@ export type ProfessionalCardProps = {
   id: number;
   name: string;
   specialty: string;
-  image: string;
   location: string;
-  description: string;
   online: boolean;
+  image: string;
+  description: string;
+};
+
+export type  ProfessionalProfile = ProfessionalCardProps & {
+  formation: string[];
+  about: string;
+  workTopics: string[];
 };

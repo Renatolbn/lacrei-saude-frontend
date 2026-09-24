@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { colors, typography, spacing } from "../styles/tokens";
 import Image from "next/image";
 import Link from "next/link";
-import LocationOnOutlinedIcon from "@mui/icons-material/LocationOnOutlined";
+import LocationOnIcon from "@mui/icons-material/LocationOn";
 
 const Card = styled.article`
   width: 100%;
@@ -27,6 +27,7 @@ const Avatar = styled(Image)`
   height: 88px;
   border-radius: 50%;
   object-fit: cover;
+  object-position: center 15%;
 `;
 
 const Status = styled.span<{ $online: boolean }>`
@@ -46,7 +47,7 @@ const Status = styled.span<{ $online: boolean }>`
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    background: ${(props) => (props.$online ? colors.emerald60 : "#8A9399")};
+    background: ${(props) => (props.$online ? colors.emerald60 : colors.gray50)};
   }
 `;
 
@@ -72,7 +73,7 @@ const Location = styled.p`
   gap: ${spacing.xs};
   margin-top: ${spacing.xs};
 
-  color: ${colors.textSecondary};
+  color: ${colors.emerald80};
   font-size: ${typography.textSm.fontSize};
   line-height: ${typography.textSm.lineHeight};
 `;
@@ -134,7 +135,9 @@ function ProfessionalCard(profissional: ProfessionalCardProps) {
       <Specialty>{profissional.specialty}</Specialty>
 
       <Location>
-        <LocationOnOutlinedIcon fontSize="small" />
+        <LocationOnIcon fontSize="small"
+        aria-hidden="true"
+        />
         {profissional.location}
       </Location>
 
