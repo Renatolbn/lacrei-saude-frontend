@@ -6,7 +6,7 @@ O projeto foi desenvolvido com foco em responsividade, acessibilidade, component
 
 ## 🔗 Demo
 
-[Visualizar projeto](COLOCAR_URL_DA_VERCEL)
+[Visualizar projeto](https://desafio-lacrei-saude-sand.vercel.app)
 
 ## 🛠️ Tecnologias
 
@@ -90,7 +90,7 @@ jest.setup.ts
 Clone o repositório:
 
 ```bash
-git clone URL_DO_REPOSITORIO
+git clone https://github.com/Renatolbn/lacrei-saude-frontend.git
 ```
 
 Entre na pasta:
@@ -268,10 +268,10 @@ O projeto foi preparado para deploy na Vercel.
 
 Após conectar o repositório à Vercel, novos commits na branch principal podem gerar novos deployments automaticamente.
 
-A URL pública será adicionada após a publicação do projeto.
+A aplicação está publicada na Vercel:
 
 ```text
-URL_DO_DEPLOY
+https://desafio-lacrei-saude-sand.vercel.app
 ```
 
 ## 📌 Considerações
