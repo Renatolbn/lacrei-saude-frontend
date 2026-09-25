@@ -66,8 +66,7 @@ const HeroEyebrow = styled.p`
 
 const HeroImageContent = styled.img`
   width: 100%;
-  height: auto;
-  aspect-ratio: 9 / 7;
+  height: 100%;
   object-fit: contain;
   display: block;
 `;
