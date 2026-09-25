@@ -73,6 +73,7 @@ const ProfileImageContent = styled.img`
   height: 375px;
   max-width: 100%;
   object-fit: cover;
+  border-radius: 12px;
 
   @media (max-width: 768px) {
     width: 200px;

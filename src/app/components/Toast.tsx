@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { colors, typography, spacing } from "../styles/tokens";
+import { colors, spacing } from "../styles/tokens";
 
 const ToastContainer = styled.div`
   width: 70%;
