@@ -174,6 +174,7 @@ export default function Header() {
             alt="Lacrei Saúde"
             width={220}
             height={28}
+            preload
           />
         </Logo>
 
