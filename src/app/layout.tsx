@@ -10,7 +10,7 @@ const nunito = Nunito({
 });
 
 export const metadata: Metadata = {
-  title: "Lacrei saúde",
+  title: "Desafio Lacrei Saúde",
   description:
     "Encontre profissionais de saúde para um atendimento acolhedor e respeitoso.",
 };
